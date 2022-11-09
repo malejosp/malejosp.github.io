@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haz tu pedido en Cellophane Pastelería</title>
+    <!-- <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        body {
+            background-color: white;
+            height: 100vh;
+
+        }
+
+        header {
+            background-color: white;
+            text-align: center;
+        }
+
+        nav {
+            background-color: black;
+
+        }
+
+        #navigation {
+            text-align: center;
+            padding: 15px;
+            text-align: center;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        #navigation li {
+            display: inline;
+            font-weight: bold;
+        }
+
+        a:link,
+        a:visited,
+        a:active {
+            color: antiquewhite;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 18px;
+
+        }
+
+        section {
+            background-color: white;
+            height: 400px;
+            margin-bottom: 50px;
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .menu label {
+            font-size: 15px;
+        }
+        input{
+            border-radius: 15px;
+            padding: 5px;
+            border-color: gainsboro;
+        }
+        button{
+            border-radius: 5px;
+            padding: 10px;
+            font-weight: bold;
+            background-color: black;
+            color: white;
+            text-transform: uppercase;
+        }
+
+        .imgPasteles {
+            border-radius: 15px;
+            box-shadow: 3px 3px 5px;
+        }
+
+        footer {
+            background-color: black;
+            color: aliceblue;
+            padding-top: 30px;
+            padding-bottom: 30px;
+
+        }
+
+        table {
+            /*background-color: brown;*/
+            width: 100%;
+            text-align: center;
+        }
+    </style> -->
+
+</head>
+
+<body>
+
+    <header>
+        <img id="logo" src="./img/logo.png" alt="logo" width="350px" height="350px" />
+        <nav>
+            <ul id="navigation">
+                <li><a href="./cake.html">Home</a></li>
+                <li><a href="#">Online shop</a></li>
+                <li><a href="#">About us</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section id="pedido">
+        <div class="menu">
+            <form>
+                <h3>Choose cakes</h3>
+                <label><input type="checkbox" name="chocolate" value="chocolate" /> The chocolate fudge cake</label><br>
+                <label><input type="checkbox" name="cookie&cream" value="cookie&cream" /> The cookie & cream cake</label><br>
+                <label><input type="checkbox" name="redvelvet" value="redvelvet" /> The red velvet cookie & cream cake</label><br>
+            </form>
+            <form>
+                <h3>Choose extras</h3>
+                <label><input type="checkbox" name="candles" value="candles" /> Candles</label><br>
+                <label><input type="checkbox" name="sparkles" value="sparkles" /> Sparkles</label><br>
+                <label><input type="checkbox" name="badges" value="badges" /> Birthday badges</label><br>
+            </form>
+        </div>
+        <form id="datos">
+            <h3>Login / Register</h3>
+            <label>First Name: <input type="text" name="nombre" /></label><br><br>
+            <label>Surname: <input type="text" name="Apellido" /></label><br><br>
+            <label>Telephone Number: <input type="tel" name="Teléfono" /></label><br><br>
+            <label>Email Address: <input type="email" name="correo" /></label><br><br>
+            <label>
+            <input type="radio" name="Descripción" />Tarjeta</label><label>
+            <input type="radio" name="Descripción" />Efectivo</label><br><br>
+            <button></button>
+        </form>
+        <img class="imgPasteles" src="../images/pastel-pedido.jpg" 
+        alt="decoraciones" 
+        width="250px" 
+        height="350px" />
+    </section>
+    <footer>
+        <table>
+            <tr>
+                <td><p>Find us</p></td>
+                <td><p>Tel numbers</p></td>
+                <td><p>Opening times</p></td>
+              </tr>
+              <tr>
+                <td><p>6-8 St. Helens Square York</p></td>
+                <td><p>0800 456 1919 | 0800 456 1919</p></td>
+                <td><p>Sunday to Thursday 9-5pm. Friday to Saturday 9-6pm</p></td>
+              </tr>
+        </table>
+    
+      </footer>
+</body>
+
+</html>
